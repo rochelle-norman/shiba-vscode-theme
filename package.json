@@ -2,13 +2,14 @@
   "name": "shiba-theme",
   "displayName": "shiba theme",
   "description": "shiba colour theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "publisher": "shibatheme",
   "repository": {
-		"type": "git",
-		"url": "https://github.com/rochelle-norman/shiba-vscode-theme"
-	},
+    "type": "git",
+    "url": "https://github.com/rochelle-norman/shiba-vscode-theme"
+  },
+  "icon": "./images/shiba-icon.png",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -16,12 +17,12 @@
     "Themes"
   ],
   "keywords": [
-		"theme",
-		"shiba",
-		"shiba inu",
+    "theme",
+    "shiba",
+    "shiba inu",
     "dark theme",
     "fun theme"
-	],
+  ],
   "contributes": {
     "themes": [
       {
@@ -29,6 +30,7 @@
         "uiTheme": "vs-dark",
         "path": "./themes/shiba theme-color-theme.json"
       }
-    ]
+      ]
   }
 }
+
