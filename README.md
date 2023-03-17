@@ -1,6 +1,6 @@
 # shiba-theme VS Code theme
 
-<img src="https://github.com/rochelle-norman/shiba-vscode-theme/blob/main/shiba.png" alt="Preview">
+<img src="https://github.com/rochelle-norman/shiba-vscode-theme/raw/main/shiba.png" alt="shiba theme">
 
 ## Installation
 
