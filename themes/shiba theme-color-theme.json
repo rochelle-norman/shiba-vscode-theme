@@ -158,8 +158,8 @@
 		"statusBar.background": "#0a111760",
 		"statusBar.border": "#170a0a60",
 		"statusBarItem.warningBackground": "#d64045",
-		"statusBar.debuggingBackground": "#e4e4e4",
-		"statusBar.debuggingForeground": "#e4e4e4",
+		"statusBar.debuggingBackground": "#ec7593",
+		"statusBar.debuggingForeground": "#0a1117",
 		"statusBar.foreground": "#e4e4e4",
 		"statusBar.noFolderBackground": "#0a1117",
 		"statusBarItem.hoverBackground": "#a0c4ff20",
@@ -177,9 +177,8 @@
 		"tab.unfocusedInactiveBackground": "#a0c4ff10",
 		"tab.unfocusedInactiveForeground": "#e4e4e47f",
 		"terminal.tab.activeBorder": "#16191c",
-		"terminal.background": "#16191c",
-		"terminal.foreground": "#16191c",
-		"terminal.ansiBlack": "#0a1117",
+		"terminal.background":"#16191c",
+		"terminal.foreground":"#e4e4e4","terminal.ansiBlack": "#0a1117",
 		"terminal.ansiBlue": "#ec9b75",
 		"terminal.ansiBrightBlack": "#a0c4ff",
 		"terminal.ansiBrightBlue": "#8b7cd2",
@@ -193,7 +192,7 @@
 		"terminal.ansiGreen": "#e4e4e4",
 		"terminal.ansiMagenta": "#e4e4e4",
 		"terminal.ansiRed": "#F5EFFF",
-		"terminal.ansiWhite": "s",
+		"terminal.ansiWhite": "#e4e4e4",
 		"terminal.ansiYellow": "#e4e4e4",
 		"terminalCursor.background": "#16191c",
 		"terminalCursor.foreground": "#ec9b75",
@@ -208,16 +207,6 @@
 		"widget.shadow": "#0a111730",
 	  },
 	  "tokenColors": [
-		// {
-		// 	"scope": [
-		// 	"meta.group.braces.round",
-		// 	"meta.group.braces.curly",
-		// 	"meta.group.braces.round"
-		// 	],
-		// 	"settings": {
-		// 	  "foreground": "#e4e4e4"
-		// 	}
-		//   },
 		{
 		  "scope": [
 			"variable",
@@ -812,4 +801,3 @@
 		}
 	  ]
   }
-

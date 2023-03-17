@@ -1,12 +1,15 @@
 # shiba-theme VS Code theme
 
-:warning: Note: This theme is not actively maintained.
+<img src="https://github.com/rochelle-norman/shiba-vscode-theme/blob/main/shiba.png" alt="Preview">
 
-![Shiba VS Code theme](shiba.png)
+## Installation
 
-## Install
-
-You can download [shiba theme from ](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) by searching shiba theme.
+1.  Install [Visual Studio Code](https://code.visualstudio.com/)
+2.  Launch Visual Studio Code
+3.  Choose **Extensions** from menu
+4.  Search for `shiba.theme`
+5.  Click **Install** to install it
+6.  Click **Reload** to reload the Code
 
 After it should be available as `shiba theme`.
 
