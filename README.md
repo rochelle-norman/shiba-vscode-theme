@@ -1,6 +1,6 @@
 # shiba-theme VS Code theme
 
-<img src="https://github.com/rochelle-norman/shiba-vscode-theme/raw/main/shiba.png" alt="shiba theme">
+![shiba theme](shiba.png)
 
 ## Installation
 
@@ -12,7 +12,3 @@
 6.  Click **Reload** to reload the Code
 
 After it should be available as `shiba theme`.
-
-## Override this theme
-
-To override this (or any other) theme in your personal config file. Please follow the guide in the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
