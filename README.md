@@ -2,7 +2,7 @@
 
 :warning: Note: This theme is not actively maintained.
 
-![GitHub Dark Classic VS Code theme](https://user-images.githubusercontent.com/378023/shiba.png)
+![Shiba VS Code theme](shiba.png)
 
 ## Install
 
@@ -10,7 +10,7 @@ You can download [github-vscode-theme-dark-classic-1.1.5.vsix](https://github.co
 
 After it should be available as `shiba theme`.
 
-![Choose GitHub Dark Classic](https://user-images.githubusercontent.com/378023/105127543-7718db00-5b24-11eb-874b-f76eff72de3f.png)
+![Choose Shiba Theme]()
 
 ## Override this theme
 
