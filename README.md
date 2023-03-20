@@ -4,7 +4,7 @@
 
 ## Installation
 
-1.  Install [Visual Studio Code](https://code.visualstudio.com/)
+1.  Install [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=shibatheme.shiba-theme)
 2.  Launch Visual Studio Code
 3.  Choose **Extensions** from menu
 4.  Search for `shiba.theme`
