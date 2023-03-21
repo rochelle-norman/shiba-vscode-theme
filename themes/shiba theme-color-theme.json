@@ -104,7 +104,7 @@
 		"menu.selectionBorder": "#0a111730",
 		"menu.selectionForeground": "#e4e4e4db",
 		"menu.separatorBackground": "#e4e4e4db",
-		"menubar.selectionBackground": "#2E4756",
+		"menubar.selectionBackground": "#554547",
 		"menubar.selectionBorder": "#a0c4ff50",
 		"menubar.selectionForeground": "#e4e4e4db",
 		"minimap.background": "#0a1117",
@@ -134,9 +134,9 @@
 		"pickerGroup.foreground": "#a0c4ffdb",
 		"progressBar.background": "#a0c4ffdb",
 		"scrollbar.shadow": "#0a111700",
-		"scrollbarSlider.activeBackground": "#a0c4ff61",
-		"scrollbarSlider.background": "#a0c4ff61",
-		"scrollbarSlider.hoverBackground": "#a0c4ff6b",
+		"scrollbarSlider.activeBackground": "#a0c4ff1d",
+		"scrollbarSlider.background": "#a0c4ff1d",
+		"scrollbarSlider.hoverBackground": "#a0c4ff43",
 		"selection.background": "#a0c4ffdb",
 		"settings.checkboxBackground": "#0a1117",
 		"settings.checkboxForeground": "#e4e4e4db",
@@ -165,7 +165,7 @@
 		"statusBarItem.hoverBackground": "#a0c4ff20",
 		"statusBarItem.remoteBackground": "#a0c4ffdb",
 		"statusBarItem.remoteForeground": "#0a1117",
-		"tab.activeBackground": "#a0c4ff54",
+		"tab.activeBackground": "#a0c4ff1d",
 		"tab.activeForeground": "#e4e4e4db",
 		"tab.activeModifiedBorder": "#8a7cd2db",
 		"tab.border": "#a0c4ff40",
@@ -296,7 +296,8 @@
 			"scope": [
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"entity.name.type.module.js"
+				"entity.name.type.module.js",
+				"entity.name.type.tsx"
 			],
 			"settings": {
 				"foreground": "#a0c4ffdb"
@@ -350,7 +351,8 @@
 				"punctuation.definition.comment.js",
 				"punctuation.definition.comment.html",
 				"comment.block.html",
-				"comment.block.css"
+				"comment.block.css",
+				"comment.block.tsx"
 			],
 			"settings": {
 				"foreground": "#6D6F7C",
@@ -360,7 +362,8 @@
 		{
 			"scope": [
 				"comment.line.scss",
-				"comment.line.double-slash.js"
+				"comment.line.double-slash.js",
+				"comment.line.double-slash.tsx"
 			],
 			"settings": {
 				"foreground": "#6D6F7C",
@@ -407,16 +410,19 @@
 		{
 			"scope": [
 				"variable.parameter.js",
+				"variable.parameter.ts",
 				"variable.parameter.keyframe-list.css"
 			],
 			"settings": {
-				"foreground": "#e4e4e4db"
+				"foreground": "#e4e4e4db",
+				"fontStyle": ""
 			}
 		},
 		{
 			"scope": [
 				"variable.other.object.js",
 				"storage.type.js",
+				"storage.type.tsx",
 				"string.other.link.title.markdown"
 			],
 			"settings": {
@@ -427,10 +433,21 @@
 			"scope": [
 				"variable.other.object.js",
 				"variable.other.readwrite.js",
-				"variable.other.property.js"
+				"variable.other.property.js",
+				"variable.other.readwrite.alias.tsx"
 			],
 			"settings": {
 				"foreground": "#73e2a7db",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.alias.tsx",
+				"variable.object.property.tsx"
+			],
+			"settings": {
+				"foreground": "#e4e4e4db",
 				"fontStyle": ""
 			}
 		},
@@ -472,7 +489,8 @@
 			"scope": [
 				"support.other.variable",
 				"string.other.link",
-				"markup.table"
+				"markup.table",
+				"string.quasi.js"
 			],
 			"settings": {
 				"foreground": "#e4e4e4db"
@@ -531,6 +549,27 @@
 			],
 			"settings": {
 				"foreground": "#e4e4e4db"
+			}
+		},
+		{
+			"scope": [
+				"support.class.component.tsx",
+				"meta.tag.tsx",
+				"meta.jsx.children.tsx",
+				"meta.tag.tsx",
+				"meta.arrow.tsx",
+				"source.tsx"
+			],
+			"settings": {
+				"foreground": "#73e2a7db"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.tsx"
+			],
+			"settings": {
+				"foreground": "#a0c4ffdb"
 			}
 		},
 		{
@@ -595,10 +634,11 @@
 				"entity.other.attribute-name.html",
 				"string.quoted.single.js",
 				"storage.type.function.js",
-				"meta.object-literal.key"
+				"meta.object-literal.key",
+				"storage.type.interface.tsx"
 			],
 			"settings": {
-				"foreground": "#e4e4e4db"
+				"foreground": "#ec9b75db"
 			}
 		},
 		{
@@ -686,6 +726,14 @@
 		},
 		{
 			"scope": [
+				"support.type.primitive.tsx"
+			],
+			"settings": {
+				"foreground": "#a0c4ffdb"
+			}
+		},
+		{
+			"scope": [
 				"text.html.markdown",
 				"punctuation.definition.list_item.markdown"
 			],
@@ -757,7 +805,8 @@
 		},
 		{
 			"scope": [
-				"string.other.link.description.title.markdown"
+				"string.other.link.description.title.markdown",
+				"string.template.tsx"
 			],
 			"settings": {
 				"foreground": "#e4e4e4db"
